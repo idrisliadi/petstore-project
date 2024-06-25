@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: rgb(238, 202, 207);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 60px;
+  font-weight: bold;
+  font-size: 30px;
+  flex-direction: row;
+}
+.first span {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.lulu {
+  width: 200px;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 12px;
+  font-size: 25px;
+  padding-top: 40px;
+}
+
+.second {
+  margin: 20px 60px;
+  display: flex;
+  background-color: white;
+}
+
+.text {
+  width: 100%;
+  font-size: 55px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.text p {
+  width: 350px;
+  margin: 80px;
+}
+.text button {
+  background-color: black;
+  color: white;
+  width: 60%;
+  height: 40px;
+  text-transform: capitalize;
+  font-weight: bold;
+  position: relative;
+  bottom: 70px;
+}
+.text img {
+  width: 70%;
+  margin-left: 10%;
+  position: relative;
+  bottom: 70px;
+}
+
+.third {
+  background-color: white;
+  position: relative;
+  bottom: 30px;
+  margin: 0 60px;
+}
+.third h1 {
+  padding-top: 100px;
+  padding-left: 70px;
+  font-weight: bolder;
+  font-size: 50px;
+  width: 300px;
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.container p {
+  padding: 10px 2%;
+}
+.container button {
+  width: 50%;
+  height: 7vh;
+  border: 1px solid red;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(221, 77, 77);
+}
+
+#div1 {
+  width: 100%;
+  padding: 0 4%;
+}
+
+#second {
+  border: 5px solid black;
+}
+#second img {
+  width: 100%;
+}
+
+#div2 {
+  padding-right: 90px;
+}
+#div2 button {
+  background-color: black;
+  color: white;
+  width: 30%;
+}
+#div2 h3 {
+  margin: 100px 140px;
+  border: 5px solid black;
+  width: 400px;
+  height: 50vh;
+  font-weight: bolder;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+#div2 h3 P {
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.flex {
+  padding-left: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.flex img {
+  width: 330px;
+}
+
+#bot {
+  width: 10vw;
+  height: 7vh;
+  margin: 50px 40vw;
+}
+
+#flex2 {
+  display: flex;
+  gap: 30px;
+  padding: 0 50px;
+  text-transform: capitalize;
+}
+#flex2 p {
+  padding-top: 15px;
+  font-size: 20px;
+}
+#flex2 h4 {
+  font-size: 20px;
+}
+
+#one {
+  width: 35vw;
+}
+#one h4 {
+  font-weight: bold;
+  font-size: 50px;
+  width: 250px;
+}
+#one p {
+  margin-top: 10px;
+}
+#one button {
+  color: white;
+  background-color: black;
+  width: 13vw;
+  height: 5vh;
+  margin-top: 10px;
+}
+#one input {
+  height: 5vh;
+}
+
+#two {
+  width: 20vw;
+}
+
+#three {
+  width: 20vw;
+}
+
+#four {
+  width: 20vw;
+}/*# sourceMappingURL=index.css.map */
